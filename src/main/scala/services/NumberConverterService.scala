@@ -1,7 +1,11 @@
+package services
+
 import scala.collection.immutable.TreeMap
 import scala.math.Integral.Implicits._
+import scala.concurrent.ExecutionContext
+import scala.concurrent.Future
 
-object Main extends App {
+class NumberConverterService(implicit executionContext: ExecutionContext) {
   val romanNumerals = TreeMap(
     1000 -> "M",
     900 -> "CM",
@@ -17,6 +21,7 @@ object Main extends App {
     4 -> "IV",
     1 -> "I"
   )
+
   def romanConversion(number: Int, result: String = ""): String = {
     val numeral = romanNumerals.rangeTo(number).lastOption
     numeral match {
@@ -26,7 +31,16 @@ object Main extends App {
     }
   }
 
-  def systemConversion(number: Int, system: Int, result: String = ""): String = {
+  def convert(number: Int, conversion: String): Future[Option[String]] = {
+    Future(
+      conversion match {
+        case "roman" => Some(romanConversion(number))
+        case "hexadecimal" => systemConversion(number, 16)
+      }
+    )
+  }
+
+  def systemConversion(number: Int, system: Int, result: String = ""): Option[String] = {
     def systemNumeralConversion(number: Int, system: Int): String = {
       if (number < 10) {
         number.toString
@@ -36,7 +50,7 @@ object Main extends App {
     }
 
     number match {
-      case 0 => result
+      case 0 => Some(result)
       case _ => {
         val (quotient, remainder) = number /% system
         systemConversion(quotient, system, systemNumeralConversion(remainder, system) + result)
@@ -44,11 +58,6 @@ object Main extends App {
     }
   }
 
-  println(systemConversion(256, 16))
-  println(romanConversion(210))
-  println(romanConversion(2110))
-  println(romanConversion(2115))
-  println(romanConversion(510))
-  println(romanConversion(10))
-  println("Hello, World!".concat("test"))
+ //dzielimy ten crap
+
 }
