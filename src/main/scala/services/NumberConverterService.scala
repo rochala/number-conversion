@@ -6,7 +6,7 @@ import scala.concurrent.ExecutionContext
 import scala.concurrent.Future
 
 class NumberConverterService(implicit executionContext: ExecutionContext) {
-  val romanNumerals = TreeMap(
+  private val romanNumerals = TreeMap(
     1000 -> "M",
     900 -> "CM",
     500 -> "D",
@@ -31,33 +31,43 @@ class NumberConverterService(implicit executionContext: ExecutionContext) {
     }
   }
 
-  def convert(number: Int, conversion: String): Future[Option[String]] = {
+  def convert(conversion: String, number: Int): Future[Option[String]] = {
     Future(
-      conversion match {
-        case "roman" => Some(romanConversion(number))
-        case "hexadecimal" => systemConversion(number, 16)
-      }
+      if (number < 0)
+        None
+      else
+        conversion match {
+          case "roman" =>
+            if (number < 4000 && number != 0) Some(romanConversion(number)) else None
+          case "hexadecimal" => Some("0x" + systemConversion(number, 16))
+          case _ => None
+        }
     )
   }
 
-  def systemConversion(number: Int, system: Int, result: String = ""): Option[String] = {
-    def systemNumeralConversion(number: Int, system: Int): String = {
-      if (number < 10) {
-        number.toString
+  def systemConversion(
+      number: Int,
+      system: Int,
+      result: String = ""
+  ): String = {
+    def systemNumeralConversion(numeral: Int, system: Int): String = {
+      if (numeral < 10) {
+        numeral.toString
       } else {
-        (65 + number - 10).toChar.toString
+        (65 + numeral - 10).toChar.toString
       }
     }
 
     number match {
-      case 0 => Some(result)
+      case 0 => result
       case _ => {
         val (quotient, remainder) = number /% system
-        systemConversion(quotient, system, systemNumeralConversion(remainder, system) + result)
+        systemConversion(
+          quotient,
+          system,
+          systemNumeralConversion(remainder, system) + result
+        )
       }
     }
   }
-
- //dzielimy ten crap
-
 }

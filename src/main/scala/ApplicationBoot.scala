@@ -14,13 +14,14 @@ object ApplicationBoot extends App {
 
     val httpRoute = new HttpRoute(numberConverterService)
 
-    val bindingFuture = Http().newServerAt("localhost", 8080).bind(httpRoute.route)
+    val bindingFuture =
+      Http().newServerAt("localhost", 8080).bind(httpRoute.route)
 
     println(s"Server online at http://localhost:8080/")
     println("Press Enter to stop...")
     StdIn.readLine() // let it run until user presses return
     bindingFuture
-      .flatMap(_.unbind())                      // trigger unbinding from the port
+      .flatMap(_.unbind()) // trigger unbinding from the port
       .onComplete(_ => actorSystem.terminate()) // and shutdown when done
   }
 

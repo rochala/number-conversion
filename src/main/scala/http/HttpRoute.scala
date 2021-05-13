@@ -9,7 +9,9 @@ import io.circe.Encoder
 import io.circe.syntax._
 import de.heikoseeberger.akkahttpcirce.FailFastCirceSupport
 
-class HttpRoute(numbersConverterService: NumberConverterService)(implicit executionContext: ExecutionContext) extends FailFastCirceSupport {
+class HttpRoute(numbersConverterService: NumberConverterService)(implicit
+    executionContext: ExecutionContext
+) extends FailFastCirceSupport {
   import StatusCodes._
 
   val route: Route =
@@ -18,12 +20,14 @@ class HttpRoute(numbersConverterService: NumberConverterService)(implicit execut
         path(Segment / IntNumber) { (conversion, value) =>
           pathEndOrSingleSlash {
             get {
-              complete(numbersConverterService.convert(value.toInt, conversion).map {
-                case Some(result) =>
-                  OK -> result.asJson
-                case None =>
-                  BadRequest -> None.asJson
-              })
+              complete(
+                numbersConverterService.convert(conversion, value).map {
+                  case Some(result) =>
+                    OK -> result.asJson
+                  case None =>
+                    BadRequest -> None.asJson
+                }
+              )
             }
           }
         }
