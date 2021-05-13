@@ -1,0 +1,1124 @@
+[0m2021.05.13 10:04:50 INFO  Started: Metals version 0.10.0 in workspace '/Users/rochala/Projects/numberconverter' for client Neovim 0.5.0.[0m
+[0m2021.05.13 10:04:52 INFO  time: initialize in 2.45s[0m
+[0m2021.05.13 10:04:52 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.13 10:04:53 INFO  Selected port 5031[0m
+[0m2021.05.13 10:04:53 WARN  no build target for: /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala[0m
+May 13, 2021 10:04:53 AM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.4.Final
+May 13, 2021 10:04:53 AM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+May 13, 2021 10:04:53 AM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+May 13, 2021 10:04:54 AM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+[0m2021.05.13 10:04:53 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+[0m2021.05.13 10:04:56 INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/metals901113072461000681/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.05.13 10:04:59 INFO  [info] welcome to sbt 1.5.1 (Oracle Corporation Java 11.0.8)[0m
+[0m2021.05.13 10:05:00 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.13 10:05:02 INFO  [info] loading global plugins from /Users/rochala/.sbt/1.0/plugins[0m
+object Main extends App {
+  println("Hello, World!")
+}
+object Main extends App {
+  println("Hello, World!")
+}
+[0m2021.05.13 10:05:06 INFO  [info] loading settings for project numberconverter-build-build from metals.sbt ...[0m
+[0m2021.05.13 10:05:06 INFO  [info] loading project definition from /Users/rochala/Projects/numberconverter/project/project[0m
+[0m2021.05.13 10:05:08 INFO  [info] loading settings for project numberconverter-build from metals.sbt ...[0m
+[0m2021.05.13 10:05:08 INFO  [info] loading project definition from /Users/rochala/Projects/numberconverter/project[0m
+[0m2021.05.13 10:05:13 INFO  [success] Generated .bloop/numberconverter-build.json[0m
+[0m2021.05.13 10:05:13 INFO  [success] Total time: 4 s, completed May 13, 2021, 10:05:13 AM[0m
+[0m2021.05.13 10:05:15 INFO  [info] loading settings for project numberconverter from build.sbt ...[0m
+[0m2021.05.13 10:05:15 INFO  [info] set current project to hello-world (in build file:/Users/rochala/Projects/numberconverter/)[0m
+[0m2021.05.13 10:05:15 INFO  [success] Generated .bloop/numberconverter.json[0m
+[0m2021.05.13 10:05:15 INFO  [success] Generated .bloop/numberconverter-test.json[0m
+[0m2021.05.13 10:05:15 INFO  [success] Total time: 0 s, completed May 13, 2021, 10:05:16 AM[0m
+[0m2021.05.13 10:05:15 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.05.13 10:05:16 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+[0m2021.05.13 10:05:16 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher15040047480820394651/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/rochala/Projects/numberconverter/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/rochala/Projects/numberconverter/.bloop/numberconverter.json'
+[0m[32m[D][0m Loading project from '/Users/rochala/Projects/numberconverter/.bloop/numberconverter-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /Users/rochala/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/rochala/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /Users/rochala/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /Users/rochala/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/rochala/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher15040047480820394651/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher15040047480820394651/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.13 10:05:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rochala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.13 10:05:16 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher1593205627837650016/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher1593205627837650016/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher1593205627837650016/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.13 10:05:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rochala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.13 10:05:17 INFO  time: Connected to build server in 1.13s[0m
+[0m2021.05.13 10:05:17 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.05.13 10:05:17 INFO  time: Imported build in 0.16s[0m
+[0m2021.05.13 10:05:24 INFO  time: indexed workspace in 6.62s[0m
+[0m2021.05.13 10:05:25 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 10:05:32 INFO  time: compiled numberconverter in 6.69s[0m
+[0m2021.05.13 10:11:07 INFO  shutting down Metals[0m
+[0m2021.05.13 10:11:07 INFO  Shut down connection with build server.[0m
+[0m2021.05.13 10:11:07 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+May 13, 2021 10:11:07 AM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.4.Final
+[0m2021.05.13 10:43:28 INFO  Started: Metals version 0.10.0 in workspace '/Users/rochala/Projects/numberconverter' for client Neovim 0.5.0.[0m
+[0m2021.05.13 10:43:32 INFO  time: initialize in 3.33s[0m
+[0m2021.05.13 10:43:33 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.13 10:43:33 INFO  Selected port 5031[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher4964357401154434917/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.05.13 10:43:32 WARN  no build target for: /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala[0m
+May 13, 2021 10:43:33 AM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.4.Final
+May 13, 2021 10:43:33 AM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.4.Final
+[0m2021.05.13 10:43:33 INFO  skipping build import with status 'Installed'[0m
+May 13, 2021 10:43:33 AM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.4.Final
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher4964357401154434917/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher4964357401154434917/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.13 10:43:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rochala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.13 10:43:33 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher5308068247831067840/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher5308068247831067840/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/44/zlr9pw9d4flgcny81yb0snvr0000gn/T/bsp-launcher5308068247831067840/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.13 10:43:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rochala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.13 10:43:33 INFO  time: Connected to build server in 0.51s[0m
+[0m2021.05.13 10:43:33 INFO  Connected to Build server: Bloop v1.4.8[0m
+May 13, 2021 10:43:33 AM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+[0m2021.05.13 10:43:33 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+[0m2021.05.13 10:43:39 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.13 10:43:39 INFO  time: Imported build in 0.14s[0m
+object Main extends App {
+  println("Hello, World!")
+}
+[0m2021.05.13 10:43:42 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.13 10:43:47 INFO  time: indexed workspace in 7.95s[0m
+[0m2021.05.13 11:01:14 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:01:14 INFO  time: compiled numberconverter in 0.85s[0m
+[0m2021.05.13 11:04:33 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:04:33 INFO  time: compiled numberconverter in 0.23s[0m
+[0m2021.05.13 11:04:36 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:04:36 INFO  time: compiled numberconverter in 0.39s[0m
+[0m2021.05.13 11:04:48 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:04:48 INFO  time: compiled numberconverter in 0.24s[0m
+[0m2021.05.13 11:05:02 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:05:02 INFO  time: compiled numberconverter in 0.46s[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:31 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:38 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:38 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:38 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:38 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:40 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:45 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:45 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:45 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:45 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:05:53 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:00 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:00 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:00 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:00 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:03 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:08 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:08 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:08 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:08 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:09 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:19 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:19 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:19 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:19 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:19 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:19 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:20 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:20 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:24 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:24 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:24 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:24 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:26 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:30 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:30 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:30 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:30 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:32 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:32 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:32 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:32 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:50 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:50 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:50 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:50 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:54 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:4:29: stale bloop error: diverging implicit expansion for type scala.math.Ordering[K]
+starting with method Tuple9 in object Ordering
+  val romanSymbols = TreeMap(
+                            ^[0m
+[0m2021.05.13 11:06:58 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:6:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:00 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:07:00 INFO  time: compiled numberconverter in 0.4s[0m
+[0m2021.05.13 11:07:00 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:07:01 INFO  time: compiled numberconverter in 0.26s[0m
+[0m2021.05.13 11:07:28 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:07:28 INFO  time: compiled numberconverter in 0.3s[0m
+[0m2021.05.13 11:07:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:48 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:50 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:50 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:51 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:51 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:56 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:56 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:56 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:57 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:20:46: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+> {
+> 
+>   }[0m
+[0m2021.05.13 11:07:58 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:07:58 INFO  time: compiled numberconverter in 0.25s[0m
+[0m2021.05.13 11:08:11 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:08:11 INFO  time: compiled numberconverter in 0.24s[0m
+[0m2021.05.13 11:09:05 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:09:05 INFO  time: compiled numberconverter in 0.21s[0m
+[0m2021.05.13 11:09:23 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:09:23 INFO  time: compiled numberconverter in 0.22s[0m
+[0m2021.05.13 11:13:21 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:13:21 INFO  time: compiled numberconverter in 0.4s[0m
+[0m2021.05.13 11:13:27 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:13:27 INFO  time: compiled numberconverter in 0.23s[0m
+[0m2021.05.13 11:13:37 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:13:37 INFO  time: compiled numberconverter in 0.21s[0m
+[0m2021.05.13 11:15:21 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:15:21 INFO  time: compiled numberconverter in 0.21s[0m
+[0m2021.05.13 11:15:36 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:15:36 INFO  time: compiled numberconverter in 0.12s[0m
+[0m2021.05.13 11:15:46 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^[0m
+[0m2021.05.13 11:15:46 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:5: stale bloop error: 'case' expected but '}' found.
+    }
+    ^[0m
+[0m2021.05.13 11:15:47 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:15:47 INFO  time: compiled numberconverter in 0.24s[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:43 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:45 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:44 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:46 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:16:46 INFO  time: compiled numberconverter in 0.51s[0m
+[0m2021.05.13 11:16:47 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:47 INFO  /Users/rochala/Projects/numberconverter/src/main/scala/Main.scala:21:24: stale bloop error: type mismatch;
+ found   : Unit
+ required: String
+      case Some(value) =>
+                       ^^[0m
+[0m2021.05.13 11:16:49 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:16:51 INFO  time: compiled numberconverter in 2.23s[0m
+[0m2021.05.13 11:17:03 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:17:06 INFO  time: compiled numberconverter in 2.51s[0m
+[0m2021.05.13 11:18:00 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:18:01 INFO  time: compiled numberconverter in 1.56s[0m
+[0m2021.05.13 11:20:24 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:20:24 INFO  time: compiled numberconverter in 0.38s[0m
+[0m2021.05.13 11:20:42 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:20:42 INFO  time: compiled numberconverter in 0.12s[0m
+[0m2021.05.13 11:20:57 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:20:59 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.05.13 11:20:59 INFO  time: compiled numberconverter in 1.99s[0m
+[0m2021.05.13 11:21:03 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:21:05 INFO  time: compiled numberconverter in 1.86s[0m
+[0m2021.05.13 11:21:18 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:21:20 INFO  time: compiled numberconverter in 1.51s[0m
+[0m2021.05.13 11:21:26 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:21:27 INFO  time: compiled numberconverter in 1.53s[0m
+[0m2021.05.13 11:21:43 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:21:43 INFO  time: compiled numberconverter in 0.28s[0m
+[0m2021.05.13 11:22:42 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:22:44 INFO  time: compiled numberconverter in 1.52s[0m
+[0m2021.05.13 11:22:55 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:22:57 INFO  time: compiled numberconverter in 1.73s[0m
+[0m2021.05.13 11:25:08 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:25:08 INFO  time: compiled numberconverter in 0.3s[0m
+[0m2021.05.13 11:25:21 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:25:21 INFO  time: compiled numberconverter in 0.28s[0m
+[0m2021.05.13 11:25:50 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:25:51 INFO  time: compiled numberconverter in 1.57s[0m
+[0m2021.05.13 11:26:15 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:26:16 INFO  time: compiled numberconverter in 1.39s[0m
+[0m2021.05.13 11:26:21 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:26:22 INFO  time: compiled numberconverter in 1.44s[0m
+[0m2021.05.13 11:26:32 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:26:32 INFO  time: compiled numberconverter in 0.19s[0m
+[0m2021.05.13 11:26:36 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:26:37 INFO  time: compiled numberconverter in 1.47s[0m
+[0m2021.05.13 11:27:17 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:27:17 INFO  time: compiled numberconverter in 0.2s[0m
+[0m2021.05.13 11:27:36 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:27:37 INFO  time: compiled numberconverter in 1.45s[0m
+[0m2021.05.13 11:27:40 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:27:40 INFO  time: compiled numberconverter in 0.17s[0m
+[0m2021.05.13 11:27:51 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:27:53 INFO  time: compiled numberconverter in 1.72s[0m
+[0m2021.05.13 11:28:09 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:28:11 INFO  time: compiled numberconverter in 1.29s[0m
+[0m2021.05.13 11:28:20 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:28:21 INFO  time: compiled numberconverter in 1.16s[0m
+[0m2021.05.13 11:28:32 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:28:33 INFO  time: compiled numberconverter in 1.22s[0m
+[0m2021.05.13 11:28:42 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:28:44 INFO  time: compiled numberconverter in 1.29s[0m
+[0m2021.05.13 11:28:56 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:28:57 INFO  time: compiled numberconverter in 1.21s[0m
+[0m2021.05.13 11:29:02 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:29:03 INFO  time: compiled numberconverter in 1.24s[0m
+[0m2021.05.13 11:29:10 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:29:12 INFO  time: compiled numberconverter in 1.37s[0m
+[0m2021.05.13 11:33:32 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:33:32 INFO  time: compiled numberconverter in 0.36s[0m
+[0m2021.05.13 11:33:35 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:33:35 INFO  time: compiled numberconverter in 0.17s[0m
+[0m2021.05.13 11:33:40 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:33:42 INFO  time: compiled numberconverter in 1.5s[0m
+[0m2021.05.13 11:33:54 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:33:55 INFO  time: compiled numberconverter in 1.49s[0m
+[0m2021.05.13 11:35:25 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:35:25 INFO  time: compiled numberconverter in 0.44s[0m
+[0m2021.05.13 11:35:34 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:35:34 INFO  time: compiled numberconverter in 0.23s[0m
+[0m2021.05.13 11:35:39 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:35:39 INFO  time: compiled numberconverter in 0.23s[0m
+[0m2021.05.13 11:35:44 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:35:46 INFO  time: compiled numberconverter in 1.35s[0m
+[0m2021.05.13 11:35:52 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:35:53 INFO  time: compiled numberconverter in 1.18s[0m
+[0m2021.05.13 11:36:00 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:36:01 INFO  time: compiled numberconverter in 1.23s[0m
+[0m2021.05.13 11:36:18 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:36:19 INFO  time: compiled numberconverter in 1.33s[0m
+[0m2021.05.13 11:36:19 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:36:19 INFO  time: compiled numberconverter in 0.31s[0m
+[0m2021.05.13 11:36:25 INFO  compiling numberconverter (1 scala source)[0m
+[0m2021.05.13 11:36:26 INFO  time: compiled numberconverter in 1.28s[0m
